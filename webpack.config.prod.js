@@ -7,6 +7,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin'); //引入css文
 const es3ifyPlugin = require('es3ify-webpack-plugin');
 
 
+
 const prodConfig = {
   devtool: 'cheap-module-source-map',
   entry: {
@@ -47,7 +48,7 @@ const prodConfig = {
       },
       {
         test: /\.css$/,
-        loaders: ExtractTextPlugin.extract("style-loader", "css-loader")
+        loaders: ["style-loader", "css-loader"]
       }
     ],
   },

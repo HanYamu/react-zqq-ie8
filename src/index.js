@@ -5,7 +5,7 @@ import ReactDom from 'react-dom';
 import { Router } from 'react-router-dom';
 import history from './history';
 import App from './app';
-// import './style/reset.css'
+import './style/reset.css'
 console.log(history)
 
 ReactDom.render(
