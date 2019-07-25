@@ -1,0 +1,8 @@
+.asideContain{
+    width: 220px;
+    height: 100%;
+    background-color: rgb(24, 66, 145);
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
